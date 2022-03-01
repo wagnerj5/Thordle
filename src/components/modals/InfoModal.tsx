@@ -58,7 +58,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        Created by Canas © 2022<br/><br/>
+        Created by <b>Canas</b> © 2022<br/><br/>
         This is forked from an open source version of the word guessing game we all know and
         love -{' '}
         <a
