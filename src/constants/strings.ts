@@ -14,7 +14,7 @@ export const WIN_MESSAGES = [
   'GOOD GAME!',
   'VVGN!',
   'NICE JOB!',
-  'YOU\'RE THE GREATEST!',
+  "YOU'RE THE GREATEST!",
   'YOU LIGHT UP MY WORLD!',
   'EXCELLENT!',
 ]
