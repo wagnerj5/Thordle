@@ -367,4 +367,5 @@ export const WORDS = [
 	'frame',
 	'cabin',
 	'arrow',
+	'witch',
 ]
