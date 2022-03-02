@@ -362,6 +362,7 @@ export const WORDS = [
   'ruler',
   'vanus',
   'scent',
+  'shred',
   'argus',
   'hyena',
   'stars',
