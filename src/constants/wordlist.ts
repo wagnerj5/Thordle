@@ -368,4 +368,9 @@ export const WORDS = [
   'frame',
   'cabin',
   'arrow',
+  'enemy',
+  'pings',
+  'ulted',
+  'right',
+  'spree',
 ]
