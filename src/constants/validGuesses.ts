@@ -6,7 +6,7 @@ export const VALID_GUESSES = [
 	'agent',
 	'aggro',
 	'agony',
-	'ahnur',
+	'anhur',
 	'alloy',
 	'alpha',
 	'angel',

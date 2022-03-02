@@ -312,7 +312,7 @@ export const WORDS = [
 	'lucky',
 	'recon',
 	'power',
-	'ahnur',
+	'anhur',
 	'harpy',
 	'death',
 	'sweep',
