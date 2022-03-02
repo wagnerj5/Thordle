@@ -10,8 +10,8 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the SMITE related word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        Guess the SMITE related word in 6 tries. After each guess, the color of
+        the tiles will change to show how close your guess was to the word.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -58,9 +58,11 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        Created by <b>Canas</b> © 2022<br/><br/>
-        This is forked from an open source version of the word guessing game we all know and
-        love -{' '}
+        Created by <b>Canas</b> © 2022
+        <br />
+        <br />
+        This is forked from an open source version of the word guessing game we
+        all know and love -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"

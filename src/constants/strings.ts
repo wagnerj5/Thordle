@@ -1,6 +1,22 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['VER!', 'YOU ROCK!', 'VEA!', 'AWESOME!', 'VEW!', 'WOOHOO!', 'VVC!', 'COMPLETED!', 'GG!', 'VVGG!', 'GOOD GAME!', 'VVGN!', 'NICE JOB!', 'YOU\'RE THE GREATEST!', 'YOU LIGHT UP MY WORLD!']
+export const WIN_MESSAGES = [
+  'VER!',
+  'YOU ROCK!',
+  'VEA!',
+  'AWESOME!',
+  'VEW!',
+  'WOOHOO!',
+  'VVC!',
+  'COMPLETED!',
+  'GG!',
+  'VVGG!',
+  'GOOD GAME!',
+  'VVGN!',
+  'NICE JOB!',
+  "YOU'RE THE GREATEST!",
+  'YOU LIGHT UP MY WORLD!',
+]
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
 export const WORD_NOT_FOUND_MESSAGE = 'Word not found'
