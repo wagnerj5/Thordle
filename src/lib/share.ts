@@ -11,10 +11,11 @@ export const shareStatus = (
   isHighContrastMode: boolean
 ) => {
   navigator.clipboard.writeText(
-    `${GAME_TITLE} ${solutionIndex} ${
+    `${GAME_TITLE} #${solutionIndex} ${
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
-      generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode))
+      generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode)) +
+    `\nwagnerj5.github.io/Thordle`
   )
 }
 
