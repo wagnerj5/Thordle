@@ -14,8 +14,9 @@ export const WIN_MESSAGES = [
   'GOOD GAME!',
   'VVGN!',
   'NICE JOB!',
-  "YOU'RE THE GREATEST!",
+  'YOU\'RE THE GREATEST!',
   'YOU LIGHT UP MY WORLD!',
+  'EXCELLENT!',
 ]
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
