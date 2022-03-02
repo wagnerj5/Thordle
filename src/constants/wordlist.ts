@@ -1,6 +1,6 @@
 export const WORDS = [
 	'brews',
-	'prots',
+	'mulan',
 	'flail',
 	'login',
 	'cobra',
@@ -340,7 +340,7 @@ export const WORDS = [
 	'auras',
 	'eonic',
 	'taunt',
-	'mulan',
+	'witch',
 	'rally',
 	'lunge',
 	'nerfs',
@@ -352,6 +352,7 @@ export const WORDS = [
 	'macro',
 	'viper',
 	'chain',
+	'prots',
 	'zoner',
 	'neith',
 	'storm',
@@ -367,5 +368,4 @@ export const WORDS = [
 	'frame',
 	'cabin',
 	'arrow',
-	'witch',
 ]
