@@ -6913,6 +6913,7 @@ export const VALID_GUESSES = [
   'messy',
   'mesto',
   'metal',
+  'metas',
   'meted',
   'meter',
   'metes',
