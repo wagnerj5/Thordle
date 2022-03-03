@@ -117,6 +117,7 @@ export const WORDS = [
   'taolu',
   'agony',
   'charm',
+  'slain',
   'swarm',
   'sever',
   'cloud',
