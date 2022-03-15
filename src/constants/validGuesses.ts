@@ -6271,6 +6271,7 @@ export const VALID_GUESSES = [
   'lepta',
   'lered',
   'leres',
+  'lermy',
   'lerps',
   'lesbo',
   'leses',
