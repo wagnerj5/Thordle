@@ -73,14 +73,15 @@ export const localeAwareUpperCase = (text: string) => {
 }
 
 export const getWordOfDay = () => {
+  
   // January 1, 2022 Game Epoch
   const epochMs = new Date('March 1, 2022 00:00:00').valueOf()
+  const baseMsDstOffset = isDstObserved() ? epochMs - 3600000 : epochMs
   const now = Date.now()
   const msInDay = 86400000
-  //const msDstOffset = isDstObserved() ? 3600000 : 0
-  //const index = Math.floor(((now + msDstOffset) - epochMs) / msInDay)
-  const index = Math.floor((now - epochMs) / msInDay)
-  const nextday = (index + 1) * msInDay + epochMs
+
+  const index = Math.floor((now - baseMsDstOffset) / msInDay)
+  const nextday = (index + 1) * msInDay + baseMsDstOffset
 
   return {
     solution: localeAwareUpperCase(WORDS[index % WORDS.length]),
@@ -89,7 +90,7 @@ export const getWordOfDay = () => {
   }
 }
 
-/*export const isDstObserved = () => {
+export const isDstObserved = () => {
   const today = new Date()
 
   const jan = new Date(today.getFullYear(), 0, 1)
@@ -97,6 +98,6 @@ export const getWordOfDay = () => {
   const stdTimezoneOffset = Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset())
   
   return today.getTimezoneOffset() < stdTimezoneOffset
-}*/
+}
 
 export const { solution, solutionIndex, tomorrow } = getWordOfDay()
