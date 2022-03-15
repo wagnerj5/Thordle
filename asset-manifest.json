@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Thordle/static/css/main.57f61414.css",
-    "main.js": "/Thordle/static/js/main.5412c5d4.js",
+    "main.js": "/Thordle/static/js/main.f57c848d.js",
     "static/js/787.b3f9d252.chunk.js": "/Thordle/static/js/787.b3f9d252.chunk.js",
     "index.html": "/Thordle/index.html",
     "main.57f61414.css.map": "/Thordle/static/css/main.57f61414.css.map",
-    "main.5412c5d4.js.map": "/Thordle/static/js/main.5412c5d4.js.map",
+    "main.f57c848d.js.map": "/Thordle/static/js/main.f57c848d.js.map",
     "787.b3f9d252.chunk.js.map": "/Thordle/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57f61414.css",
-    "static/js/main.5412c5d4.js"
+    "static/js/main.f57c848d.js"
   ]
 }
