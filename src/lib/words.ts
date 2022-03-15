@@ -77,8 +77,9 @@ export const getWordOfDay = () => {
   const epochMs = new Date('March 1, 2022 00:00:00').valueOf()
   const now = Date.now()
   const msInDay = 86400000
-  const msDstOffset = isDstObserved() ? 3600000 : 0
-  const index = Math.floor(((now + msDstOffset) - epochMs) / msInDay)
+  //const msDstOffset = isDstObserved() ? 3600000 : 0
+  //const index = Math.floor(((now + msDstOffset) - epochMs) / msInDay)
+  const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
 
   return {
@@ -88,7 +89,7 @@ export const getWordOfDay = () => {
   }
 }
 
-export const isDstObserved = () => {
+/*export const isDstObserved = () => {
   const today = new Date()
 
   const jan = new Date(today.getFullYear(), 0, 1)
@@ -96,6 +97,6 @@ export const isDstObserved = () => {
   const stdTimezoneOffset = Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset())
   
   return today.getTimezoneOffset() < stdTimezoneOffset
-}
+}*/
 
 export const { solution, solutionIndex, tomorrow } = getWordOfDay()
