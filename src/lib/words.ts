@@ -78,7 +78,7 @@ export const getWordOfDay = () => {
   const now = Date.now()
   const msInDay = 86400000
   const msDstOffset = isDstObserved() ? 3600000 : 0
-  const index = Math.floor((now - epochMs) / msInDay)
+  const index = Math.floor(((now + msDstOffset) - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
 
   return {
